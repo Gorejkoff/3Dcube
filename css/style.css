@@ -114,14 +114,25 @@
    /*  background-color: rgba(216, 70, 70, 0.9); */
 }
 
-.input-range {
+.input-range:not(:first-child) {
    margin-top: 20px;
+}
+
+.input-range {
    text-align: center;
+}
+
+.input-body {
+   padding: 50px 0px;
+   background-color: rgb(124, 124, 124);
 }
 
 .input-range input {
    width: 90%;
 }
+
+
+
 
 .slider-wrapper {
    overflow: hidden;
